@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:jokerman;
+    background-image:url(12.jpg);
+    background-size: cover;
+    background-position: center;
+    color:rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 70px;
+}
+
+.ring{
+    /* background-color: rgb(7, 1, 12); */
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    transition: 3s ease-out;
+    transform:rotatex(360deg);
+}
+
+/* .ring{
+    transform:rotatex(360deg);
+} */
